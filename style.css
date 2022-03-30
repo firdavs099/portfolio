@@ -49,3 +49,20 @@ body {
 h3 {
     margin: 0;
 }
+.wrap-main {
+    background-color: rgba(247, 239, 232);
+    padding: 100px 0;
+}
+.wrap-inner-main {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.wmain-content {
+    width: 45%;
+    text-align: justify;
+}
+.wmain-content h3,h4 {text-align: center}

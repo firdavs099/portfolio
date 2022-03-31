@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 * {
-    list-style: none
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 body {
     margin: 0;
@@ -65,4 +68,18 @@ h3 {
     width: 45%;
     text-align: justify;
 }
-.wmain-content h3,h4 {text-align: center}
+.wmain-content h3,h4 {
+    text-align: center
+}
+.skill-wrap-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.skill-wrap-inner img {
+    margin: 10px 8px;
+}

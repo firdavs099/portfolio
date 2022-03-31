@@ -31,7 +31,7 @@ body {
 .head-wr ul {
     display: flex;
     flex-direction: row;
-    justify_content: space-between
+    justify-content: space-between
 }
 .head-wr ul li {
     margin-left: 35px;
